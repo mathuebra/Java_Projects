@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="519.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cadastropacientes.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="286.0" layoutY="458.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="38.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codigo:" />
+      <Text layoutX="38.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome:" />
+      <Text layoutX="38.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Peso:" />
+      <Text layoutX="38.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genero:" />
+      <RadioButton fx:id="rbMasculino" layoutX="108.0" layoutY="181.0" mnemonicParsing="false" onAction="#setMasculinoOn" text="Masculino" />
+      <RadioButton fx:id="rbFeminino" layoutX="108.0" layoutY="215.0" mnemonicParsing="false" onAction="#setFemininoOn" text="Feminino" />
+      <Text layoutX="38.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Idade:" />
+      <Text layoutX="38.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Altura:" />
+      <TextField fx:id="tfCodigo" layoutX="107.0" layoutY="85.0" />
+      <TextField fx:id="tfNome" layoutX="107.0" layoutY="116.0" />
+      <TextField fx:id="tfPeso" layoutX="107.0" layoutY="146.0" />
+      <TextField fx:id="tfIdade" layoutX="108.0" layoutY="265.0" />
+      <TextField fx:id="tfAltura" layoutX="107.0" layoutY="304.0" />
+      <Button fx:id="bInserir" layoutX="33.0" layoutY="415.0" mnemonicParsing="false" onAction="#buttonIncuir" text="Incluir" />
+      <Button fx:id="bRelatorio" layoutX="107.0" layoutY="415.0" mnemonicParsing="false" text="Relatorio" />
+      <Button fx:id="bSair" layoutX="279.0" layoutY="415.0" mnemonicParsing="false" onAction="#buttonSair" text="Sair" />
+      <Button fx:id="bLimpar" layoutX="197.0" layoutY="415.0" mnemonicParsing="false" onAction="#buttonClear" text="Limpar" />
+    </children>
+</AnchorPane>
