@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bancoimobiliariomatheusleticia.HelloController">
+    <children>
+        <Pane layoutX="125.0" layoutY="100.0" prefHeight="400.0" prefWidth="450.0" style="-fx-background-color: grey;">
+            <children>
+                <Label layoutX="126.0" layoutY="85.0" prefHeight="231.0" prefWidth="199.0" style="-fx-background-color: dfe0e0;" />
+                <Label layoutX="177.0" layoutY="99.0" text="Legenda:">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Region fx:id="regionCasa01" layoutX="133.0" layoutY="142.0" opacity="0.34" prefHeight="43.0" prefWidth="35.0" style="-fx-background-color: orange;">
+                    <effect>
+                        <InnerShadow />
+                    </effect>
+                </Region>
+                <Region fx:id="regionCasa011" layoutX="133.0" layoutY="247.0" opacity="0.34" prefHeight="43.0" prefWidth="35.0" style="-fx-background-color: blue;">
+                    <effect>
+                        <InnerShadow />
+                    </effect>
+                </Region>
+                <Region fx:id="regionCasa012" layoutX="133.0" layoutY="193.0" opacity="0.34" prefHeight="43.0" prefWidth="35.0" style="-fx-background-color: green;">
+                    <effect>
+                        <InnerShadow />
+                    </effect>
+                </Region>
+                <Label layoutX="177.0" layoutY="153.0" text="Propriedade" textFill="#f87001">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="177.0" layoutY="204.0" text="Companhia" textFill="#2fa133">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="177.0" layoutY="258.0" text="Evento" textFill="#3127bc">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="18.0" />
+                    </font>
+                </Label>
+            </children></Pane>
+        <Pane layoutX="696.0" layoutY="11.0" opacity="0.75" prefHeight="245.0" prefWidth="290.0" style="-fx-background-color: DODGERBLUE;">
+            <effect>
+                <Bloom threshold="1.0" />
+            </effect>
+            <children>
+                <Label fx:id="labelDinheiroJogador1" layoutX="14.0" layoutY="55.0" prefHeight="24.0" prefWidth="230.0" text="Dinheiro do jogador 1:">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="14.0" />
+                    </font></Label>
+                <Label layoutX="69.0" layoutY="14.0" text="Jogador 1" textFill="#e1e9ff">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="28.0" />
+                    </font>
+                </Label>
+                <Label fx:id="labelPropriedade1" layoutX="14.0" layoutY="85.0">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="13.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Region layoutX="20.0" layoutY="8.0" opacity="0.34" prefHeight="92.0" prefWidth="105.0" style="-fx-background-color: red;" />
+        <Region layoutX="574.0" layoutY="8.0" opacity="0.34" prefHeight="92.0" prefWidth="105.0" style="-fx-background-color: red;" />
+        <Label layoutX="39.0" layoutY="44.0" text="Início" textFill="#f20202">
+            <font>
+                <Font name="DejaVu Sans Mono Bold" size="18.0" />
+            </font>
+        </Label>
+        <Region fx:id="regionCasa0" layoutX="125.0" layoutY="8.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa1" layoutX="200.0" layoutY="8.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa3" layoutX="350.0" layoutY="8.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: green;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa4" layoutX="425.0" layoutY="8.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: blue;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa5" layoutX="500.0" layoutY="8.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa6" layoutX="594.0" layoutY="81.0" opacity="0.34" prefHeight="105.0" prefWidth="66.0" rotate="90.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa7" layoutX="594.0" layoutY="147.0" opacity="0.34" prefHeight="105.0" prefWidth="66.0" rotate="90.0" style="-fx-background-color: blue;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa8" layoutX="594.0" layoutY="213.0" opacity="0.34" prefHeight="105.0" prefWidth="66.0" rotate="90.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa9" layoutX="593.0" layoutY="279.0" opacity="0.34" prefHeight="105.0" prefWidth="69.0" rotate="90.0" style="-fx-background-color: green;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa10" layoutX="593.0" layoutY="348.0" opacity="0.34" prefHeight="105.0" prefWidth="68.0" rotate="90.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa11" layoutX="594.0" layoutY="415.0" opacity="0.34" prefHeight="105.0" prefWidth="66.0" rotate="90.0" style="-fx-background-color: blue;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa12" layoutX="500.0" layoutY="500.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa13" layoutX="425.0" layoutY="500.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: blue;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa15" layoutX="275.0" layoutY="500.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: blue;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa14" layoutX="350.0" layoutY="500.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: green;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa16" layoutX="200.0" layoutY="500.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa17" layoutX="125.0" layoutY="500.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa23" layoutX="39.0" layoutY="81.0" opacity="0.34" prefHeight="105.0" prefWidth="67.0" rotate="90.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa22" layoutX="39.0" layoutY="147.0" opacity="0.34" prefHeight="105.0" prefWidth="67.0" rotate="90.0" style="-fx-background-color: green;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa21" layoutX="39.0" layoutY="213.0" opacity="0.34" prefHeight="105.0" prefWidth="67.0" rotate="90.0" style="-fx-background-color: blue;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa20" layoutX="39.0" layoutY="279.0" opacity="0.34" prefHeight="105.0" prefWidth="67.0" rotate="90.0" style="-fx-background-color: blue;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa18" layoutX="39.0" layoutY="415.0" opacity="0.34" prefHeight="105.0" prefWidth="67.0" rotate="90.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Region fx:id="regionCasa19" layoutX="39.0" layoutY="348.0" opacity="0.34" prefHeight="105.0" prefWidth="67.0" rotate="90.0" style="-fx-background-color: orange;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Pane layoutX="697.0" layoutY="347.0" opacity="0.75" prefHeight="245.0" prefWidth="290.0" style="-fx-background-color: ff2161;">
+            <effect>
+                <Bloom threshold="1.0" />
+            </effect>
+            <children>
+                <Label fx:id="labelDinheiroJogador2" layoutX="12.0" layoutY="49.0" prefHeight="35.0" prefWidth="267.0" text="Dinheiro do jogador 2:" textFill="#0a0000">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="69.0" layoutY="14.0" text="Jogador 2" textFill="#ffcfcf">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="28.0" />
+                    </font>
+                </Label>
+                <Label fx:id="labelPropriedade2" layoutX="12.0" layoutY="84.0">
+                    <font>
+                        <Font name="DejaVu Sans Mono Bold" size="13.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Button fx:id="buttonDado" layoutX="704.0" layoutY="273.0" mnemonicParsing="false" onAction="#rodarDado" text="Rodar dado" />
+        <Button fx:id="buttonComprar" disable="true" layoutX="804.0" layoutY="273.0" mnemonicParsing="false" onAction="#compraPosse" text="Comprar" />
+        <Button fx:id="buttonAjuda" layoutX="696.0" layoutY="304.0" mnemonicParsing="false" onAction="#handleButtonAjuda" text="Ajuda" />
+        <Button fx:id="buttonConstruirCasa" disable="true" layoutX="757.0" layoutY="304.0" mnemonicParsing="false" onAction="#compraCasa" text="Construir casa" />
+        <Button fx:id="buttonTerminarJogo" layoutX="879.0" layoutY="304.0" mnemonicParsing="false" onAction="#terminaJogo" text="Terminar jogo" />
+        <Button fx:id="buttonFinalizarJogada" disable="true" layoutX="889.0" layoutY="273.0" mnemonicParsing="false" onAction="#finalizaJogada" text="Finalizar" />
+        <Circle fx:id="circleJogador1" fill="DODGERBLUE" layoutX="72.0" layoutY="44.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+        <Region layoutX="575.0" layoutY="500.0" opacity="0.34" prefHeight="92.0" prefWidth="105.0" style="-fx-background-color: red;" />
+        <Region layoutX="20.0" layoutY="500.0" opacity="0.34" prefHeight="92.0" prefWidth="105.0" style="-fx-background-color: red;" />
+        <Region fx:id="regionCasa2" layoutX="275.0" layoutY="8.0" opacity="0.34" prefHeight="92.0" prefWidth="75.0" style="-fx-background-color: blue;">
+            <effect>
+                <InnerShadow />
+            </effect>
+        </Region>
+        <Circle fx:id="circleJogador2" fill="#ff2164" layoutX="73.0" layoutY="65.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+    </children>
+</AnchorPane>
